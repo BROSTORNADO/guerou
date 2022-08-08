@@ -1,0 +1,141 @@
+
+*/
+body{
+        text-shadow: 0px 0px 2px #1D3557;
+        background: linear-gradient(#1a7d1e,#e8d55a);
+   
+
+}
+
+
+.hero{
+    background: url("images/guittara.png");
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:120px 50px 180px 50px;
+    border: 7px solid #e8d55a ;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px #1a7d1e;
+
+}
+.hero h1{
+    background: #e8d55a;
+    color: #1D3557;
+    margin-bottom:11px; 
+    border-radius:20px 40px;
+    padding: 4px 12px;
+    box-shadow: 0px 0px 20px #e8d55a;
+    border:2px solid #1a7d1e;
+    background: linear-gradient(#1a7d1e,#e8d55a);
+
+}
+.hero h2{
+    background: #1a7d1e;
+    color: #e8d55a;
+    margin-top:10px;
+    border-radius:40px 20px;
+    padding: 6px 8px;
+    max-width:450px;
+    box-shadow: 0px 0px 20px #e8d55a ;
+    border:2px solid #e8d55a;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(#1a7d1e,#e8d55a);
+}
+#ok{
+    background: #e8d55a;
+    margin:30px auto;
+    width:300px ;
+    border-radius: 20px 40px;
+    color:#1a7d1e;
+    box-shadow: 0px 0px 20px #1a7d1e;
+    border:2px solid #1a7d1e;
+}
+#dune-par,#guittara-par{
+    margin-bottom: 45px;
+    color: #e8d55a;
+    background: #1a7d1e;
+    border-radius: 20px 40px;
+    box-shadow: 0px 5px 20px #e8d55a ;
+    padding: 5px 7px;
+    border:2px solid #e8d55a;
+
+}
+
+img {
+    width: 350px;
+}
+
+.activities img{
+    border-radius:20%;
+    
+}
+.activities-photos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.im{
+    border :7px solid  #e8d55a;
+    box-shadow: 0px 0px 20px #1a7d1e;
+}
+.activities h3{
+    color: #1D3557;
+    text-shadow: 0px 0px 1px #1D3557;
+}
+.activities h4{
+    color: black;
+}
+.im:hover{
+    animation: shake 0.7s;
+    width: 400px;
+
+}
+
+    @keyframes shake {
+      0% { transform: translate(1px, 1px) rotate(0deg); }
+      10% { transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { transform: translate(-3px, 0px) rotate(1deg); }
+      30% { transform: translate(3px, 2px) rotate(0deg); }
+      40% { transform: translate(1px, -1px) rotate(1deg); }
+      50% { transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { transform: translate(-3px, 1px) rotate(0deg); }
+      70% { transform: translate(3px, 1px) rotate(-1deg); }
+      80% { transform: translate(-1px, -1px) rotate(1deg); }
+      90% { transform: translate(1px, 2px) rotate(0deg); }
+      100% { transform: translate(1px, -2px) rotate(-1deg); }
+    }
+  
+.guide{
+    display:flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px auto 10px;
+    border: 5px solid #e8d55a;
+    padding: 5px 10px;
+    color:#c2f55d ;
+    text-shadow: 0px 0px 5px #1D3557;
+    border-radius: 20px;
+    background: linear-gradient(#e8d55a,#1D3557);
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 20px #1a7d1e ;
+}
+.guide img{
+    width: 200px;
+    border-radius: 40px 20px 40px 20px ;
+    border:7px solid linear-gradient(#e8d55a,#1D3557);
+    margin-right: 10px;
+    border-top:6px solid  #1D3557;
+}
+
+.guide img:hover{
+    animation: shake 0.7s;
+    width: 400px;
+
+}
